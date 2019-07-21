@@ -27,7 +27,7 @@ const NavBar = () => {
             <Link to="/photos" activeStyle={{ color: 'blue' }} className="subtitle navbar-item is-right has-text-weight-light">
               Photos
           </Link>
-            <Link to="/coming-soon" className="subtitle navbar-item is-right has-text-weight-light">
+            <Link to="/404" className="subtitle navbar-item is-right has-text-weight-light">
               Archive
             </Link>
           </div>

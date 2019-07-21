@@ -27,7 +27,6 @@ const Hero = props => {
         <figure className="image is-128x128" id="cat">
           <img src={cat} alt="cat gif"></img>
         </figure>
-        <label className="label has-text-weight-medium has-text-centered">Under Construction</label>
       </div>
     </div>
   )
