@@ -1,10 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ThanMatt]]></title><description><![CDATA[Just my blog]]></description><link>https://gatsby-starter-blog-demo.netlify.com/</link><generator>RSS for Node</generator><lastBuildDate>Sat, 20 Jul 2019 16:44:32 GMT</lastBuildDate><item><title><![CDATA[Meet Mauch]]></title><description><![CDATA[It’s already midnight and I just finished coding the prototype of my NodeJS application.  Anyway, I would like to meet my app, Mauch. Mauch…]]></description><link>https://gatsby-starter-blog-demo.netlify.com//blog/meet-mauch/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com//blog/meet-mauch/</guid><pubDate>Sun, 21 Jul 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;It’s already midnight and I just finished coding the prototype of my NodeJS application. &lt;/p&gt;
-&lt;p&gt;Anyway, I would like to meet my app, &lt;a href=&quot;https://github.com/ThanMatt/manga-update-checker&quot;&gt;Mauch&lt;/a&gt;. Mauch stands for Manga Update Checker, so it just basically gives you the latest update of your favorite manga let’s say Boku No Hero Academia
-&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ThanMatt]]></title><description><![CDATA[Just my blog]]></description><link>https://gatsby-starter-blog-demo.netlify.com/</link><generator>RSS for Node</generator><lastBuildDate>Sun, 21 Jul 2019 00:17:42 GMT</lastBuildDate><item><title><![CDATA[Meet Mauch]]></title><description><![CDATA[It’s already midnight and I just finished coding the prototype of my NodeJS application.  Anyway, I would like to meet my app, Mauch. Mauch…]]></description><link>https://gatsby-starter-blog-demo.netlify.com//blog/meet-mauch/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com//blog/meet-mauch/</guid><pubDate>Sun, 21 Jul 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;It’s already midnight and I just finished coding the prototype of my NodeJS application. &lt;/p&gt;
+&lt;p&gt;Anyway, I would like to meet my app, &lt;a href=&quot;https://github.com/ThanMatt/manga-update-checker&quot;&gt;Mauch&lt;/a&gt;. Mauch stands for Manga Update Checker, so it just basically gives you the latest update of your favorite manga let’s say Boku No Hero Academia&lt;/p&gt;
+&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
     &gt;
-      &lt;span
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/a58f0ce91058be49d8c2a61fe8dc64e9/64a7b/mauch.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
     style=&quot;padding-bottom: 17.228464419475657%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAIAAAAcOLh5AAAACXBIWXMAABJ0AAASdAHeZh94AAAAkUlEQVQI112Myw6CMBBF+QOiTIdpDRgTKdCWYUEEaali/P9/Eh8rb05uzuokznH/GXPH3Btj3DBoawVRXpZYFJJIKimV+kfKJAORprstEePdhzD7YNe1muY2xGpZjPd4PCHmmAkE/PH1nBKBtNtDY9j7uMTb9uM4y2s4PJ50mZTtoOuhqqG1cNagG9A1OH470gsj8hmVZRz4agAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
@@ -19,11 +26,11 @@
 /static/a58f0ce91058be49d8c2a61fe8dc64e9/64a7b/mauch.png 801w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
+  &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
+&lt;center&gt;&lt;i&gt;Mauch in action&lt;/i&gt;&lt;/center&gt;
 &lt;p&gt;It sounds convenient because you don’t have to open your web browser just to check if are there any updates, you could just install this and run it on your terminal then bam!&lt;/p&gt;
-&lt;p&gt;This is just a prototype yet, additional details are in this &lt;a href=&quot;https://github.com/ThanMatt/manga-update-checker&quot;&gt;link&lt;/a&gt;. I’ll probably add more stuff&lt;/p&gt;</content:encoded></item><item><title><![CDATA[First Blog Post]]></title><description><![CDATA[This is my first post on my new fake blog! How exciting! I’m sure I’ll write a lot more interesting things in the future. WOOOOOO]]></description><link>https://gatsby-starter-blog-demo.netlify.com//blog/first-blog/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com//blog/first-blog/</guid><pubDate>Tue, 16 Jul 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;This is my first post on my new fake blog! How exciting!&lt;/p&gt;
-&lt;p&gt;I’m sure I’ll write a lot more interesting things in the future.&lt;/p&gt;
-&lt;p&gt;WOOOOOO&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Favorite pokemon]]></title><description><![CDATA[Hello peeps! I’m still testing my personal website by inserting blog posts right now so anyway here’s my second blog post.  My favorite…]]></description><link>https://gatsby-starter-blog-demo.netlify.com//blog/favorite-pokemon/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com//blog/favorite-pokemon/</guid><pubDate>Tue, 16 Jul 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hello peeps!&lt;/p&gt;
+&lt;p&gt;This is just a prototype yet, additional details are in this &lt;a href=&quot;https://github.com/ThanMatt/manga-update-checker&quot;&gt;link&lt;/a&gt;. I’ll probably add more stuff&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Favorite pokemon]]></title><description><![CDATA[Hello peeps! I’m still testing my personal website by inserting blog posts right now so anyway here’s my second blog post.  My favorite…]]></description><link>https://gatsby-starter-blog-demo.netlify.com//blog/favorite-pokemon/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com//blog/favorite-pokemon/</guid><pubDate>Tue, 16 Jul 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hello peeps!&lt;/p&gt;
 &lt;p&gt;I’m still testing my personal website by inserting blog posts right now so anyway here’s my second blog post. &lt;/p&gt;
 &lt;p&gt;My favorite pokemon is Greninja&lt;/p&gt;
 &lt;p&gt;&lt;span
@@ -52,4 +59,6 @@
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;center&gt; &lt;i&gt;Pic unrelated&lt;/i&gt;&lt;/center&gt;</content:encoded></item></channel></rss>
+&lt;center&gt; &lt;i&gt;Pic unrelated&lt;/i&gt;&lt;/center&gt;</content:encoded></item><item><title><![CDATA[First Blog Post]]></title><description><![CDATA[This is my first post on my new fake blog! How exciting! I’m sure I’ll write a lot more interesting things in the future. WOOOOOO]]></description><link>https://gatsby-starter-blog-demo.netlify.com//blog/first-blog/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com//blog/first-blog/</guid><pubDate>Tue, 16 Jul 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;This is my first post on my new fake blog! How exciting!&lt;/p&gt;
+&lt;p&gt;I’m sure I’ll write a lot more interesting things in the future.&lt;/p&gt;
+&lt;p&gt;WOOOOOO&lt;/p&gt;</content:encoded></item></channel></rss>
