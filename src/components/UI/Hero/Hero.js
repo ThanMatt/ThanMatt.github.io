@@ -5,7 +5,6 @@ import '@fortawesome/fontawesome-free/css/all.css';
 import './Hero.css';
 import cat from '../../../assets/img/cat.gif';
 
-
 const Hero = props => {
   return (
     <div className="hero is-medium">

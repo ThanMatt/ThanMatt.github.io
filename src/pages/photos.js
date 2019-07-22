@@ -5,6 +5,7 @@ import NavBar from "../components/UI/NavBar/NavBar";
 import Layout from "../components/layout"
 import SEO from '../components/seo';
 
+
 class Photos extends React.Component {
   render() {
     const { data } = this.props
@@ -16,7 +17,6 @@ class Photos extends React.Component {
         <Layout location={this.props.location} title={blogTitle}>
           <SEO title="Photos" description="Thanmatt's instagram photos!" />
           <div className="columns is-centered is-multiline">
-
             {
               photos.map(({ node }, index) => {
                 return (
