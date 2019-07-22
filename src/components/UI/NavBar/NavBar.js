@@ -21,7 +21,7 @@ const NavBar = () => {
             <Link to="/" activeStyle={{ color: 'blue' }} className="subtitle navbar-item is-right has-text-weight-light">
               Home
           </Link>
-            <Link to="/blog" activeStyle={{ color: 'blue' }} className="subtitle navbar-item is-right has-text-weight-light">
+            <Link to="/blog" activeStyle={{ color: 'blue' }} partiallyActive={true} className="subtitle navbar-item is-right has-text-weight-light">
               Blog
           </Link>
             <Link to="/photos" activeStyle={{ color: 'blue' }} className="subtitle navbar-item is-right has-text-weight-light">
