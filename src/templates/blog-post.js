@@ -22,9 +22,8 @@ class BlogPostTemplate extends React.Component {
             description={post.frontmatter.description || post.excerpt}
           />
           <h1
-            className="subtitle is-5"
+            className="title is-5 has-text-weight-normal"
             style={{
-              marginTop: rhythm(1),
               marginBottom: 0,
             }}
           >

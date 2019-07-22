@@ -12,4 +12,4 @@ Anyway, I would like to meet my app, <a href="https://github.com/ThanMatt/manga-
 
 It sounds convenient because you don't have to open your web browser just to check if are there any updates, you could just install this and run it on your terminal then bam!
 
-This is just a prototype yet, additional details are in this <a href="https://github.com/ThanMatt/manga-update-checker" target="_blank">link</a>. I'll probably add more stuff
+This is just a prototype yet, additional details are in this <a href="https://github.com/ThanMatt/manga-update-checker" target="_blank">link</a>. I'll probably add more stuff.
