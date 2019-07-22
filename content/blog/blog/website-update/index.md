@@ -1,6 +1,7 @@
 ---
 title: Website Update
 date: "2019-07-21T12:30"
+tags: ["dev", "website-update"]
 ---
 
 Hello!

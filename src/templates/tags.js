@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 import NavBar from "../components/UI/NavBar/NavBar";
 
-class BlogIndex extends React.Component {
+class Tags extends React.Component {
   render() {
     const { data } = this.props
     const blogTitle = data.site.siteMetadata.blogTitle
@@ -15,40 +15,24 @@ class BlogIndex extends React.Component {
 
     return (
       <>
-
         <NavBar />
         <Layout location={this.props.location} title={blogTitle}>
-          <SEO title="Blog" />
+          <SEO title="Tags" />
           <Bio />
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
             return (
               <div key={node.fields.slug}>
-                {
-                  node.frontmatter.tags.includes("website-update")
-                    ?
-                    <p
-                      className="subtitle is-5 has-text-weight-bold"
-                      style={{
-                        marginBottom: rhythm(1 / 4),
-                      }}
-                    >
-                      <Link to={node.fields.slug}>
-                        {title}
-                      </Link>
-                    </p>
-                    :
-                    <p
-                      className="subtitle is-5"
-                      style={{
-                        marginBottom: rhythm(1 / 4),
-                      }}
-                    >
-                      <Link to={node.fields.slug}>
-                        {title}
-                      </Link>
-                    </p>
-                }
+                <p
+                  className="subtitle is-5"
+                  style={{
+                    marginBottom: rhythm(1 / 4),
+                  }}
+                >
+                  <Link to={node.fields.slug}>
+                    {title}
+                  </Link>
+                </p>
                 <small>{node.frontmatter.date}</small>
                 <p
                   dangerouslySetInnerHTML={{
@@ -68,17 +52,17 @@ class BlogIndex extends React.Component {
     )
   }
 }
-
-export default BlogIndex
+export default Tags
 
 export const pageQuery = graphql`
-  query {
+  query($tag: String!){
     site {
       siteMetadata {
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(filter: {frontmatter: {tags: {in: [$tag]}}}, sort: {fields: frontmatter___date, order: DESC})
+    {
       edges {
         node {
           excerpt
@@ -87,8 +71,8 @@ export const pageQuery = graphql`
           }
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
-            title
             tags
+            title
           }
         }
       }

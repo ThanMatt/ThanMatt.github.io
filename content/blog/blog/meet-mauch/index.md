@@ -1,6 +1,7 @@
 ---
 title: Meet Mauch
 date: "2019-07-21T00:05"
+tags: ["dev", "javascript", "nodejs"]
 ---
 
 It's already midnight and I just finished coding the prototype of my NodeJS application. 

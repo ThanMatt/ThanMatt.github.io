@@ -23,9 +23,6 @@ const Hero = props => {
             </a>
           </span>
         </div>
-        <figure className="image is-128x128" id="cat">
-          <img src={cat} alt="cat gif"></img>
-        </figure>
       </div>
     </div>
   )

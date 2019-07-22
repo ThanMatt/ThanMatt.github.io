@@ -1,6 +1,7 @@
 ---
 title: Favorite pokemon
 date: "2019-07-16T18:00"
+tags: ["fluff", "me-irl"]
 ---
 
 Hello peeps!

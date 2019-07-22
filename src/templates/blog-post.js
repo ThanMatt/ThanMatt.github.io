@@ -39,6 +39,16 @@ class BlogPostTemplate extends React.Component {
             {post.frontmatter.date}
           </p>
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
+          <div className="tags" style={{ marginTop: rhythm(0.5) }}>
+            {
+              post.frontmatter.tags.map((tag, index) => {
+                return (
+                  <span className="tag" key={index}>{tag}</span>
+                )
+              })
+            }
+
+          </div>
           <hr
             style={{
               marginBottom: rhythm(1),
@@ -93,6 +103,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        tags
       }
     }
   }
