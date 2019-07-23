@@ -6,6 +6,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 import NavBar from '../components/UI/NavBar/NavBar';
+import Tag from "../components/Tag/Tag";
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -41,11 +42,7 @@ class BlogPostTemplate extends React.Component {
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
           <div className="tags" style={{ marginTop: rhythm(0.5) }}>
             {
-              post.frontmatter.tags.map((tag, index) => {
-                return (
-                  <span className="tag" key={index}>{tag}</span>
-                )
-              })
+              post.frontmatter.tags.map((tag, index) => <Tag tag={tag} key={index} />)
             }
 
           </div>

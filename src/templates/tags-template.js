@@ -1,24 +1,27 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 import NavBar from "../components/UI/NavBar/NavBar";
+import Tags from "../components/Tag/Tag";
 
-class Tags extends React.Component {
+class TagsTemplate extends React.Component {
   render() {
-    const { data } = this.props
+    const { data, pageContext } = this.props
     const blogTitle = data.site.siteMetadata.blogTitle
     const posts = data.allMarkdownRemark.edges
-
     return (
       <>
         <NavBar />
         <Layout location={this.props.location} title={blogTitle}>
-          <SEO title="Tags" />
-          <Bio />
+          <SEO
+            title={pageContext.tag}
+            description={'Anything related to ' + pageContext.tag}
+          />
+          <p className="title has-text-weight-normal is-5">Tagged in</p>
+          <p className="title is-3" style={{ marginBottom: rhythm(1) }}>{pageContext.tag}</p>
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
             return (
@@ -41,7 +44,7 @@ class Tags extends React.Component {
                 />
                 <div className="tags" style={{ marginTop: rhythm(0.5), marginBottom: rhythm(0.5) }}>
                   {
-                    node.frontmatter.tags.map((tag, index) => <span className="tag" key={index}>{tag}</span>)
+                    node.frontmatter.tags.map((tag, index) => <Tags tag={tag} key={index} />)
                   }
                 </div>
               </div>
@@ -52,7 +55,7 @@ class Tags extends React.Component {
     )
   }
 }
-export default Tags
+export default TagsTemplate
 
 export const pageQuery = graphql`
   query($tag: String!){

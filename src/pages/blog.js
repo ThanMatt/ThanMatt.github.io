@@ -6,6 +6,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 import NavBar from "../components/UI/NavBar/NavBar";
+import Tags from "../components/Tag/Tag";
 
 class BlogIndex extends React.Component {
   render() {
@@ -25,7 +26,7 @@ class BlogIndex extends React.Component {
             return (
               <div key={node.fields.slug}>
                 {
-                  node.frontmatter.tags.includes("website-update")
+                  node.frontmatter.tags.includes("website update")
                     ?
                     <p
                       className="subtitle is-5 has-text-weight-bold"
@@ -57,7 +58,7 @@ class BlogIndex extends React.Component {
                 />
                 <div className="tags" style={{ marginTop: rhythm(0.5), marginBottom: rhythm(0.5) }}>
                   {
-                    node.frontmatter.tags.map((tag, index) => <span className="tag" key={index}>{tag}</span>)
+                    node.frontmatter.tags.map((tag, index) => <Tags tag={tag} key={index} />)
                   }
                 </div>
               </div>
