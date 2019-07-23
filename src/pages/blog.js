@@ -25,31 +25,16 @@ class BlogIndex extends React.Component {
             const title = node.frontmatter.title || node.fields.slug
             return (
               <div key={node.fields.slug}>
-                {
-                  node.frontmatter.tags.includes("website update")
-                    ?
-                    <p
-                      className="subtitle is-5 has-text-weight-bold"
-                      style={{
-                        marginBottom: rhythm(1 / 4),
-                      }}
-                    >
-                      <Link to={node.fields.slug}>
-                        {title}
-                      </Link>
-                    </p>
-                    :
-                    <p
-                      className="subtitle is-5"
-                      style={{
-                        marginBottom: rhythm(1 / 4),
-                      }}
-                    >
-                      <Link to={node.fields.slug}>
-                        {title}
-                      </Link>
-                    </p>
-                }
+                <p
+                  className="subtitle is-5"
+                  style={{
+                    marginBottom: rhythm(1 / 4),
+                  }}
+                >
+                  <Link to={node.fields.slug}>
+                    {title}
+                  </Link>
+                </p>
                 <small>{node.frontmatter.date}</small>
                 <p
                   dangerouslySetInnerHTML={{

@@ -3,7 +3,6 @@ import React from 'react'
 import 'bulma/css/bulma.css';
 import '@fortawesome/fontawesome-free/css/all.css';
 import './Hero.css';
-import cat from '../../../assets/img/cat.gif';
 
 const Hero = props => {
   return (
