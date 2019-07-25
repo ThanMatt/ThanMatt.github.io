@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Aethan Ilagan]]></title><description><![CDATA[Welcome to my website!]]></description><link>https://gatsby-starter-blog-demo.netlify.com/</link><generator>RSS for Node</generator><lastBuildDate>Tue, 23 Jul 2019 10:46:36 GMT</lastBuildDate><item><title><![CDATA[Website Update]]></title><description><![CDATA[Hello! My photos page is now live and you should check it out!  Right now it’s just my instagram photos but I’ll add more photo sources…]]></description><link>https://gatsby-starter-blog-demo.netlify.com//blog/website-update</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com//blog/website-update</guid><pubDate>Sun, 21 Jul 2019 04:30:00 GMT</pubDate><content:encoded>&lt;p class=&quot;content&quot;&gt;Hello!&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Aethan Ilagan]]></title><description><![CDATA[Welcome to my website!]]></description><link>https://gatsby-starter-blog-demo.netlify.com/</link><generator>RSS for Node</generator><lastBuildDate>Thu, 25 Jul 2019 03:07:00 GMT</lastBuildDate><item><title><![CDATA[Mauch Bot]]></title><description><![CDATA[Hi there Remember Mauch? I do!  I’m proud to announce that Mauch is now a discord bot! It’s still in its early stages though.  If you want…]]></description><link>https://gatsby-starter-blog-demo.netlify.com//blog/mauch-bot</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com//blog/mauch-bot</guid><pubDate>Thu, 25 Jul 2019 03:30:00 GMT</pubDate><content:encoded>&lt;p class=&quot;content&quot;&gt;Hi there&lt;/p&gt;
+&lt;p class=&quot;content&quot;&gt;Remember &lt;a href=&quot;/blog/meet-mauch&quot; target=&quot;_blank&quot; rel=&quot;noreferrer noopener&quot;&gt;Mauch&lt;/a&gt;? I do! &lt;/p&gt;
+&lt;p class=&quot;content&quot;&gt;I’m proud to announce that Mauch is now a discord bot!&lt;/p&gt;
+&lt;p class=&quot;content&quot;&gt;It’s still in its early stages though.&lt;/p&gt;
+&lt;p class=&quot;content&quot;&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/07caa9a8b8176deeac8e01079136ac21/0336a/discord-mauch.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 77.88873038516404%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAABJ0AAASdAHeZh94AAACBklEQVQ4y5WT2W7TQBSG80ZtHO/b2J4Z2/HYcZomIU0oSIhF5YKbIqFKqDc8Bdc86M+ZSV1SIUF88WuOF31n+c9MVKuw260RsxJV0yPJJLwggx/lcAM2WpPD/oD7L3fIZYO5ukJgQCm8MDM/OH46SpOZx2C5DFEqjGJWI0ikgQ3QURW+u3vEw49fyMUcq/Ur9JtPSMU1ZYsNcMh8NpCJHqLZGWDTrSDkHCwvEVO1CRNgRfkC+t+WbTeGZQco5z0UAXmpIOsFwoQbY4I4HzdD20swI+nsM4JP7QiWE1GcQH8b065p+c3tHt/uP6OQCpvdLUTVkTGS1qc0Jg1tng2UZYO+IwjtX62WyIoKGa/BKQGnVRqMORvI6y3U6j1Vw5ETSBsUMoWZExqQ7Y10+e2HB3z9/hOi7rDe7rG++Yh2+RoFuV6IBoJMisggR89Zg18oeRIlfRrNxHJiXFgB2n6NLc1ws72h84CqvYZslmAEdaLij8JB5H7Ej6KrOkAnQ6lpUYPJDnnZIREKVtbCzhSm1P5F2przMqXntDG61GdSYxpXsAn+DHT8I9BLaYEJ4GRUUd7C4wu4FPtigYBiLyeDihY+xT7v6H1v7n0YMjMOxxSWauCRrE3hNDd9U8qKlpuk5yjKxqgQtXmWNFNB7md0mzRQz9c9XeyhZV3pX5v/j6tmn8SnLv8Gcr8rKyTyyA8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;mauch bot&quot;
+        title=&quot;mauch bot&quot;
+        src=&quot;/static/07caa9a8b8176deeac8e01079136ac21/b9e4f/discord-mauch.png&quot;
+        srcset=&quot;/static/07caa9a8b8176deeac8e01079136ac21/cf440/discord-mauch.png 148w,
+/static/07caa9a8b8176deeac8e01079136ac21/d2d38/discord-mauch.png 295w,
+/static/07caa9a8b8176deeac8e01079136ac21/b9e4f/discord-mauch.png 590w,
+/static/07caa9a8b8176deeac8e01079136ac21/0336a/discord-mauch.png 701w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;content&quot;&gt;If you want to see its source code, just click this &lt;a href=&quot;https://github.com/ThanMatt/mauch-bot&quot; target=&quot;_blank&quot; rel=&quot;noreferrer noopener&quot;&gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;p class=&quot;content&quot;&gt;Stay tuned for more mauch-bot updates!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Website Update]]></title><description><![CDATA[Hello! My photos page is now live and you should check it out!  Right now it’s just my instagram photos but I’ll add more photo sources…]]></description><link>https://gatsby-starter-blog-demo.netlify.com//blog/website-update</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com//blog/website-update</guid><pubDate>Sun, 21 Jul 2019 04:30:00 GMT</pubDate><content:encoded>&lt;p class=&quot;content&quot;&gt;Hello!&lt;/p&gt;
 &lt;p class=&quot;content&quot;&gt;My &lt;a href=&quot;/photos/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;photos page&lt;/a&gt; is now live and you should check it out! &lt;/p&gt;
 &lt;p class=&quot;content&quot;&gt;Right now it’s just my instagram photos but I’ll add more photo sources — not just my instagram. &lt;/p&gt;
 &lt;p class=&quot;content&quot;&gt;But that’s not all&lt;/p&gt;
