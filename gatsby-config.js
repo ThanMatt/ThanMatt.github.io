@@ -62,8 +62,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Aethan Ilagan`,
+        short_name: `AIlagan`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#000000`,
