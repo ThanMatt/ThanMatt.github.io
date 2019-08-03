@@ -1,9 +1,10 @@
 .icon-social {
   background: transparent !important;
+  transition: 0.3s;
 }
 
 .icon-social:hover {
   background: transparent !important;
   transform: scale(1.3);
-  transition: 0.5s
+  transition: 0.3s
 }
