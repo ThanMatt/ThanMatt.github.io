@@ -20,8 +20,8 @@ class TagsTemplate extends React.Component {
             title={pageContext.tag}
             description={'Anything related to ' + pageContext.tag}
           />
-          <p className="title has-text-weight-normal is-5">Tagged in</p>
-          <p className="title is-3" style={{ marginBottom: rhythm(1) }}>{pageContext.tag}</p>
+          <p className="title has-text-weight-normal has-text-centered is-5">Tagged in</p>
+          <p className="title is-3 has-text-centered" style={{ marginBottom: rhythm(1) }}>{pageContext.tag}</p>
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
             return (
