@@ -5,7 +5,7 @@ import _ from 'lodash';
 import './Tag.css';
 const Tag = props => {
   return (
-    <Link to={'tag/' + _.kebabCase(props.tag)} className="tag">
+    <Link to={'/tag/' + _.kebabCase(props.tag)} className="tag is-rounded">
       {props.tag}
     </Link>
   )

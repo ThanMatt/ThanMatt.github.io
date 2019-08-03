@@ -1,3 +1,10 @@
-.card:hover {
+#ig-card {
+  border-radius: 15px;
+}
+
+#img {
+  border-radius: 5px;
+}
+#ig-card:hover {
   background-color: rgba(189, 189, 189, 0.63);
 }

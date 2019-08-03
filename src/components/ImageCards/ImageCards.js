@@ -5,10 +5,10 @@ const ImageCards = props => {
   const igPicURL = `https://instagram.com/p/${props.photo.id}`
   return (
     <a href={igPicURL} target="_blank" rel="noopener noreferrer">
-      <div className="card">
+      <div className="card" id="ig-card">
         <div className="card-image">
           <figure className="image is-4by3">
-            <img src={props.photo.preview} alt={props.photo.caption} />
+            <img src={props.photo.preview} id="img" alt={props.photo.caption} />
           </figure>
           <div className="card-content">
             <div className="media">

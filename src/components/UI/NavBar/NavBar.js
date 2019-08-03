@@ -1,16 +1,26 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import ScrollTop from 'react-scrolltop-button';
+import styled from 'styled-components';
 
 import 'bulma/css/bulma.css';
 import './NavBar.css';
 
 const NavBar = () => {
+  const StyledScrollTop = styled(ScrollTop)`
+    border-color: #707070;
+    border-radius: 15px;
+    border-width: 1px;
+    :hover {
+      background: #dbdbdb;
+      color: black;
+    } 
+  `
   return (
     <>
-      <ScrollTop
+      <StyledScrollTop
         distance={500}
-        className="has-text-weight-bold is-6"
+        className="has-text-weight-light is-5"
       />
 
       <nav className="navbar is-transparent">
