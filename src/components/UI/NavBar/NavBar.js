@@ -14,13 +14,14 @@ const NavBar = () => {
     :hover {
       background: #dbdbdb;
       color: black;
+      transition: 0.1s;
     } 
   `
   return (
     <>
       <StyledScrollTop
         distance={500}
-        className="has-text-weight-light is-5"
+        className="has-text-weight-light is-5 animated slideInUp faster"
       />
 
       <nav className="navbar is-transparent">
