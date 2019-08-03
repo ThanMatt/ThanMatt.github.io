@@ -25,28 +25,41 @@ class TagsTemplate extends React.Component {
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
             return (
-              <div key={node.fields.slug}>
-                <p
-                  className="subtitle is-5"
-                  style={{
-                    marginBottom: rhythm(1 / 4),
-                  }}
-                >
-                  <Link to={node.fields.slug}>
-                    {title}
-                  </Link>
-                </p>
-                <small>{node.frontmatter.date}</small>
-                <p
-                  dangerouslySetInnerHTML={{
-                    __html: node.frontmatter.description || node.excerpt,
-                  }}
-                />
-                <div className="tags" style={{ marginTop: rhythm(0.5), marginBottom: rhythm(0.5) }}>
-                  {
-                    node.frontmatter.tags.map((tag, index) => <Tags tag={tag} key={index} />)
-                  }
-                </div>
+              <div key={node.fields.slug}
+                style={{
+                  marginBottom: rhythm(0.6)
+                }}
+              >
+
+                <Link to={node.fields.slug}>
+                  <div className="post-container">
+                    <div className="card" id="blog-card">
+                      <div className="card-content">
+                        <p
+                          id="title"
+                          style={{
+                            marginBottom: rhythm(1 / 4),
+                          }}
+                        >
+                          {title}
+                        </p>
+
+                        <small>{node.frontmatter.date}</small>
+                        <p
+                          dangerouslySetInnerHTML={{
+                            __html: node.frontmatter.description || node.excerpt,
+                          }}
+                        />
+                        <div className="tags" style={{ marginTop: rhythm(0.5) }}>
+                          {
+                            node.frontmatter.tags.map((tag, index) => <Tags tag={tag} key={index} />)
+                          }
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </Link>
               </div>
             )
           })}
