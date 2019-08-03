@@ -46,7 +46,7 @@ export const photosQuery = graphql`
       edges {
         node {
           id
-          preview
+          original
           caption
           username
         }
