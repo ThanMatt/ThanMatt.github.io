@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 import NavBar from "../components/UI/NavBar/NavBar";
-import Tags from "../components/Tag/Tag";
+import BlogCard from '../components/BlogCard/BlogCard';
 
 class BlogIndex extends React.Component {
   render() {
@@ -29,33 +29,7 @@ class BlogIndex extends React.Component {
                   marginBottom: rhythm(0.6)
                 }}>
                 <Link to={node.fields.slug}>
-                  <div className="post-container">
-                    <div className="card" id="blog-card">
-                      <div className="card-content">
-                        <p
-                          id="title"
-                          style={{
-                            marginBottom: rhythm(1 / 4),
-                          }}
-                        >
-                          {title}
-                        </p>
-
-                        <small>{node.frontmatter.date}</small>
-                        <p
-                          dangerouslySetInnerHTML={{
-                            __html: node.frontmatter.description || node.excerpt,
-                          }}
-                        />
-                        <div className="tags" style={{ marginTop: rhythm(0.5) }}>
-                          {
-                            node.frontmatter.tags.map((tag, index) => <Tags tag={tag} key={index} />)
-                          }
-                        </div>
-
-                      </div>
-                    </div>
-                  </div>
+                  <BlogCard node={node} title={title} />
                 </Link>
               </div>
             )

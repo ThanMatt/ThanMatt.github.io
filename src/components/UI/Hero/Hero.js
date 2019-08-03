@@ -12,13 +12,18 @@ const Hero = props => {
         <label className="label has-text-weight-light has-text-centered is-size-4">Welcome to my site</label>
         <div className="icon-container">
           <span className="icon is-large">
-            <a href="https://www.instagram.com/8tanilagan" title="Instagram" className="button is-white hvr-grow" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/8tanilagan" title="Instagram" className="button is-white icon-social" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-instagram fa-2x"></i>
             </a>
           </span>
           <span className="icon is-large">
-            <a href="https://github.com/ThanMatt" className="button is-white hvr-grow" title="Github" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/ThanMatt" className="button is-white icon-social" title="Github" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-github fa-2x"></i>
+            </a>
+          </span>
+          <span className="icon is-large">
+            <a href="mailto: aethanilagan@gmail.com" className="button is-white icon-social" title="Contact me" target="_blank" rel="noopener noreferrer">
+              <i className="far fa-envelope fa-2x"></i>
             </a>
           </span>
         </div>
