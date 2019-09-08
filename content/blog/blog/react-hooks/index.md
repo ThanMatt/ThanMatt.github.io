@@ -30,10 +30,10 @@ What can I say?
 
 Using hooks look cleaner and readable than that ol' pesky *this* render method class components stuff. I'm beginning to fall in love with Hooks 😍
 
-I mean, the screenshots above are still readable because the app is too simple. But when it comes to flexibility, using hooks may seem like a better choice according to the <a href="https://www.youtube.com/watch?v=eX_L39UvZes" target="_blank" rel="noopener noreferrer">video</a>.
+I mean, the screenshots above are still readable because the app is too simple. But when it comes to flexibility, using hooks may seem like a better choice when developing large-scale projects.
 
-So, should I ditch using class components? Probably soon
+So, should I ditch class components and embrace functional components? Probably soon
 
-I've got a lot of things to learn from react!
+I've got a lot of things to learn!
 
 *Should I study apollo to ditch redux as well?* 🤔
