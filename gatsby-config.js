@@ -4,7 +4,7 @@ module.exports = {
     title: `Aethan Ilagan`,
     author: `Aethan Ilagan`,
     description: `Welcome to my website!`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://aethanilagan.wtf/`,
   },
   plugins: [
     `gatsby-plugin-styled-components`,
